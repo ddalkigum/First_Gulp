@@ -1,0 +1,30 @@
+{
+  "name": "supergulp",
+  "version": "1.0.0",
+  "description": "Learning Gulp with nomadcoders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "author": "Ddalkigum <sol35352000@gamil.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-bro": "^2.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "del": "^5.1.0",
+    "gulp-pug": "^4.0.1"
+  }
+}
